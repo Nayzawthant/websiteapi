@@ -38,6 +38,7 @@ const userSchema = mongoose.Schema(
     image:{
       type: String,
       required: true,
+    
     },
     role: {
       type: String,
